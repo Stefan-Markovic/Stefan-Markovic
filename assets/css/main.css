@@ -1788,6 +1788,10 @@
 			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 		}
 
+		#twitter {
+			min-height: 600px;
+		}
+
 		#twitter .pic .arrow:before {
 			position: relative;
 			padding-right: 0;
