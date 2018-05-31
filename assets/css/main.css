@@ -1427,7 +1427,438 @@
 				font-size: 0.75em;
 			}
 
+        /* Work */
+
+            #work .pic {
+                display: block;
+                position: absolute;
+                right: -1px;
+                top: 0;
+                height: 100%;
+                text-decoration: none;
+            }
+
+            #work .pic img {
+                position: relative;
+                display: block;
+                height: 100%;
+            }
+
+            #work .pic .arrow {
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                margin-top: -1.375em;
+                width: 1.5em;
+                height: 2.75em;
+                background: #000;
+                background: rgba(0, 0, 0, 0.75);
+                color: #ffffff;
+                text-align: center;
+                line-height: 2.75em;
+                font-size: 1.5em;
+                z-index: 1;
+                -moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                -webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                -ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+            }
+
+            #work .pic .arrow:before {
+                position: relative;
+                padding-right: 0;
+                top: 0.125em;
+                margin-left: 5px;
+            }
+
+            #work .pic .arrow span {
+                display: block;
+                text-indent: -9999px;
+            }
+
+            #work .pic:hover .arrow {
+                width: 2em;
+                padding-right: -0.5em;
+            }
+
+            #work .left {
+                display: block;
+                position: absolute;
+                margin-left: -55px;
+                top: 0;
+                height: 100%;
+                text-decoration: none;
+            }
+
+            #work .left img {
+                position: relative;
+                display: block;
+                height: 100%;
+            }
+
+            #work .left .arrow {
+                display: block;
+                position: absolute;
+                top: 50%;
+                margin-top: -1.375em;
+                width: 1.5em;
+                height: 2.75em;
+                background: #000;
+                background: rgba(0, 0, 0, 0.75);
+                color: #ffffff;
+                text-align: center;
+                line-height: 2.75em;
+                font-size: 1.5em;
+                z-index: 1;
+                -moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                -webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                -ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+                transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+            }
+
+            #work .left .arrow:before {
+                position: relative;
+                padding-right: 0;
+                top: 0.125em;
+            }
+
+            #work .left .arrow span {
+                display: block;
+                text-indent: -9999px;
+            }
+
+            #work .left:hover .arrow {
+                width: 2em;
+                padding-right: -0.5em;
+            }
+
+		/* Work */
+
+		#work .pic {
+			display: block;
+			position: absolute;
+			right: -1px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#work .pic img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#work .pic .arrow {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#work .pic .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+			margin-left: 5px;
+		}
+
+		#work .pic .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#work .pic:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
+		#work .left {
+			display: block;
+			position: absolute;
+			margin-left: -55px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#work .left img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#work .left .arrow {
+			display: block;
+			position: absolute;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#work .left .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+		}
+
+		#work .left .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#work .left:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
+
+		/* Contact */
+
+		#contact .pic {
+			display: block;
+			position: absolute;
+			right: -1px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#contact .pic img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#contact .pic .arrow {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#contact .pic .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+			margin-left: 5px;
+		}
+
+		#contact .pic .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#contact .pic:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
+		#contact .left {
+			display: block;
+			position: absolute;
+			margin-left: -55px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#contact .left img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#contact .left .arrow {
+			display: block;
+			position: absolute;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#contact .left .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+		}
+
+		#contact .left .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#contact .left:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
+		/* Twitter */
+
+		#twitter {
+			min-height: 400px;
+		}
+
+		#twitter .pic {
+			display: block;
+			position: absolute;
+			right: -1px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#twitter .pic img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#twitter .pic .arrow {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#twitter .pic .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+			margin-left: 5px;
+		}
+
+		#twitter .pic .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#twitter .pic:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
+		#twitter .left {
+			display: block;
+			position: absolute;
+			margin-left: -55px;
+			top: 0;
+			height: 100%;
+			text-decoration: none;
+		}
+
+		#twitter .left img {
+			position: relative;
+			display: block;
+			height: 100%;
+		}
+
+		#twitter .left .arrow {
+			display: block;
+			position: absolute;
+			top: 50%;
+			margin-top: -1.375em;
+			width: 1.5em;
+			height: 2.75em;
+			background: #000;
+			background: rgba(0, 0, 0, 0.75);
+			color: #ffffff;
+			text-align: center;
+			line-height: 2.75em;
+			font-size: 1.5em;
+			z-index: 1;
+			-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+			transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+		}
+
+		#twitter .left .arrow:before {
+			position: relative;
+			padding-right: 0;
+			top: 0.125em;
+		}
+
+		#twitter .left .arrow span {
+			display: block;
+			text-indent: -9999px;
+		}
+
+		#twitter .left:hover .arrow {
+			width: 2em;
+			padding-right: -0.5em;
+		}
+
 	}
+
+
 
 /* Mobile */
 
@@ -1566,6 +1997,36 @@
 					font-size: 1.25em;
 				}
 
+        /* Work */
+
+            #work .pic {
+                visibility: hidden;
+            }
+
+            #work .left {
+                visibility: hidden;
+            }
+
+		/* Contact */
+
+			#contact .pic {
+				visibility: hidden;
+			}
+
+			#contact .left {
+				visibility: hidden;
+			}
+
+		/* Twitter */
+
+		#twitter .pic {
+			visibility: hidden;
+		}
+
+		#twitter .left {
+			visibility: hidden;
+		}
+
 		/* Footer */
 
 			#footer {
@@ -1581,5 +2042,4 @@
 					#footer .copyright li:before {
 						display: none;
 					}
-
 	}
