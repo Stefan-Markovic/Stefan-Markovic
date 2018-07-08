@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=!1;$("#enter").click(function(){$("#wrapper").css("css-text","transform: translateY(-100%); transition: transform 1.5s ease;"),e=!0,$("#vod").bind("inview",function(n,s){s&&!0===e?($(this).get(0).play(),console.log("video is playing")):(console.log("video is paused"),$(this).get(0).pause())})})});
