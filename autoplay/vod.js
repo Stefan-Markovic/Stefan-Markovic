@@ -14,7 +14,7 @@ $(document).ready(function () {
     var action = false;
 
     var vid = $('#vod');
-    vid.load();
+    vid.get(0).load();
     vid.onloadeddata = function() {
         //Do whatever you  want when video is loaded here
         console.log('vid is ready');
