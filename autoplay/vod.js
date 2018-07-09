@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     function ViewVid() {
         $('#vod').bind('inview', function (event, visible) {
             if (visible && action === true) {
@@ -15,6 +14,7 @@ $(document).ready(function () {
     var action = false;
 
     var myVideo = document.getElementById("vod");
+    myVideo.load();
     myVideo.onloadeddata = function() {
         //Do whatever you  want when video is loaded here
         console.log('vid is ready');
