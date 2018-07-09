@@ -1485,7 +1485,7 @@
             #work .left {
                 display: block;
                 position: absolute;
-                left: 55px;
+                left: 0px;
                 top: 0;
                 height: 100%;
                 text-decoration: none;
@@ -1591,7 +1591,7 @@
 		#work .left {
 			display: block;
 			position: absolute;
-			left: 55px;
+			left: 0px;
 			top: 0;
 			height: 100%;
 			text-decoration: none;
@@ -1698,7 +1698,7 @@
 		#contact .left {
 			display: block;
 			position: absolute;
-			left: 55px;
+			left: 0px;
 			top: 0;
 			height: 100%;
 			text-decoration: none;
@@ -1812,7 +1812,7 @@
 		#twitter .left {
 			display: block;
 			position: absolute;
-			left: 55px;
+			left: 0px;
 			top: 0;
 			height: 100%;
 			text-decoration: none;
