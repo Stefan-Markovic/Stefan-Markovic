@@ -5,9 +5,7 @@ $(document).ready(function () {
         $('#vod').bind('inview', function (event, visible) {
             if (visible && action === true) {
                 $(this).get(0).play();
-                console.log("video is playing");
             } else {
-                console.log("video is paused");
                 $(this).get(0).pause();
             }
         });
@@ -18,8 +16,6 @@ $(document).ready(function () {
     var vid = document.getElementById("vod");
     vid.load();
     vid.onloadeddata = function() {
-        //Do whatever you  want when video is loaded here
-        console.log('vid is ready');
         $('#loading').css('display', 'none');
         $('#enter').css('display', 'inline');
     };
@@ -27,6 +23,6 @@ $(document).ready(function () {
     $('#enter').click(function () {
         $('#wrapper').css('css-text', 'transform: translateY(-100%); transition: transform 1.5s ease;');
         action = true;
-        //ViewVid();
+        ViewVid();
     });
 });
